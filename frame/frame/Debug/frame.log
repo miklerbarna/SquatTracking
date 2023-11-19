@@ -1,0 +1,7 @@
+﻿frame.obj : error LNK2019: unresolved external symbol "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z) referenced in function "public: __thiscall cv::String::String(char const *)" (??0String@cv@@QAE@PBD@Z)
+frame.obj : error LNK2019: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) referenced in function "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ)
+frame.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::VideoCapture::VideoCapture(class cv::String const &)" (??0VideoCapture@cv@@QAE@ABVString@1@@Z) referenced in function _main
+frame.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall cv::VideoCapture::~VideoCapture(void)" (??1VideoCapture@cv@@UAE@XZ) referenced in function _main
+frame.obj : error LNK2019: unresolved external symbol "public: virtual bool __thiscall cv::VideoCapture::isOpened(void)const " (?isOpened@VideoCapture@cv@@UBE_NXZ) referenced in function _main
+c:\opencv\build\x64\vc15\lib\opencv_world3416d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\user\Desktop\frame\Debug\frame.exe : fatal error LNK1120: 5 unresolved externals
